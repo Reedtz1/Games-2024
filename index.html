@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMES</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body {
+            background-image: url(img/Zeld.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1>Os Games Imperdíveis de 2024</h1>
+
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Pesquisar jogos..."
+            id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar jogos</button>
+        </section>
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+        </section>
+
+    </main>
+    <footer>
+        <p>2024- Games Imperdíveis. Todos os direito reservados.</p>
+        <p>entre em contato com Reedtz@GamesImperdíveis.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
