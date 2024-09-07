@@ -1,4 +1,4 @@
-## Desvendando o Mundo dos Games: Um Buscador Personalizado
+## Desvendando o Mundo dos Games: Imersão Dev com Google Gemini
 
 **Descrição**
 
